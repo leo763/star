@@ -11,7 +11,7 @@ h3,
 h4,
 h5,
 h6 {
-color: #111111;
+color: #f8044e;
 margin: 0;
 font-weight: 500;
 font-family: 'Rubik', sans-serif;
@@ -27,7 +27,7 @@ line-height: 1.2;
 }
 
 h3 {
-font-size: 15x;
+font-size: 30px;
 }
 
 h4 {
@@ -44,7 +44,7 @@ font-size: 14px;
 
 p {
 font-size: 14px;
-color: #636363;
+color: #0e0d0d;
 line-height: 1.6;
 }
 
@@ -117,12 +117,11 @@ Commom elements
 
 /* Buttons */
 
-
 .site-btn {
 position: relative;
 display: inline-block;
 text-transform: uppercase;
-background: #f6783a;
+background: #f8044e;
 color: #fff;
 padding: 18px 30px;
 font-size: 14px;
@@ -250,7 +249,7 @@ height: 45px;
 display: inline-block;
 position: relative;
 text-align: center;
-color: #f6783a;
+color: #f8044e;
 font-size: 17px;
 padding-top: 13px;
 margin-right: 20px;
@@ -292,7 +291,7 @@ display: none;
 }
 
 .nav-section {
-background: #020031;
+background: #f8044e;
 }
 
 .nav-section .nav-right {
@@ -338,11 +337,34 @@ background: #f6783a;
 /*---------------------
 Hero Section
 -----------------------*/
+.slide{
+        position: relative;
+        background:url(../img/2.jpg);
+        background-repeat: no-repeat;
+        color: #fff;
+        padding: 18px 30px;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 14px;
+        height: 700px;
+        width: 100%;
 
-.cont {
-justify-content: center;
-text-align: center;
-}
+        }
+        .slide .site-bt {
+                position: relative;
+                display: inline-block;
+                text-transform: uppercase;
+                background: #f8044e;
+                color: #fff;
+                padding: 5px 30px;
+                font-size: 14px;
+                font-weight: 500;
+                line-height: 14px;
+                border-radius: 50px;
+                min-width: 170px;
+
+                }
+
 
 /*---------------------
 Counter Section
@@ -550,7 +572,7 @@ bottom: -19px;
 .course-item .course-thumb .course-cat span {
 min-width: 150px;
 bottom: 0;
-background: #111111;
+background: #f6783a;
 padding: 10px 15px;
 text-align: center;
 font-size: 13px;
